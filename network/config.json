@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Julien Saint-Sevin"
+  },
+  "text": {
+    "more": "Créé par Julien Saint-Sevin - février 2022 \n Par soucis de lisibilité, sont représenté·e·s uniquement les chercheur·e·s ayant au minimum deux publications référencées sur HAL.",
+    "intro": "Données tirées de hal.fr à partir du terme \"Chin*\" sur les titres et les mots-clés des publications (Article dans une revue, Ouvrage, Chapitre d'ouvrage, Direction d'ouvrage) ",
+    "title": "La Chine sur HAL - Réseau de co-publications"
+  },
+  "legend": {
+    "edgeLabel": "945 relations de co-auteur·trices",
+    "colorLabel": "/",
+    "nodeLabel": "813 chercheur·e·s"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": true,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#fefefe",
+      "labelThreshold": 6,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 18
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
